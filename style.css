@@ -23,15 +23,23 @@ nav ul {
     text-decoration: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     font-size: 1.1em;
+}
+
+nav ul li {
+    margin-left: 15px;
 }
 
 .work-here {
     display: flex;
     justify-content: flex-end;
     color: gray;
+}
+
+.work-here ul li {
+    margin-left: 15px;
 }
 
 .logo {
