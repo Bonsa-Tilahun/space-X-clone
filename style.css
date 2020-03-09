@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+nav {
+    height: 8vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    width: 30vw;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+.work-here {
+    display: flex;
+    justify-content: flex-end;
+    color: gray;
+}
+
+.logo {
+    height: 70%;
+}
+
+.banner-section {
+    height: 83vh;
+    background-color: black;
+    background-image: url('crs20_streak1.jpg');
+    position: relative;
+}
+
+.sub-menus {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    position: absolute;
+    bottom: 0px;
+    /* background-color: darkslategray; */
+    height: 30%;
+    width: 100%;
+    color: white;
+}
+
+.sub-menu-title {
+    background-color: rgb(110, 109, 109, 0.6);
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 2.5em;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+button {
+    height: 50%;
+    width: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+}
+
+.sub-menu-items {
+    background-color: rgb(41, 46, 46);
+    height: 40%;
+}
+
+.sub-menu-items ul {
+    width: 60%;
+    height: 100%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sub-menu-items ul li {
+    border-left: 2px solid gray;
+    font-size: .7em;
+}
+
+.number {
+    color: grey;
+    margin: 0px 7px;
+}
+
+.artcle-section {
+    height: 80vh;
+}
+
+.article-Sec-title {
+    height: 10vh;
+    width: 60%;
+    margin-left: 20%;
+    padding-top: 2%;
+    font-size: .9em;
+}
+
+.articles {
+    height: 100%;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10px;
+}
+
+.articles ul {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.articles ul li {
+    margin-left: 17px;
+    box-shadow: 0px 0px 8px 2px rgba(74, 71, 74, 1);
+    padding: 15px;
+    position: relative;
+}
+
+.article-title {
+    margin: 10px 0px;
+}
+
+.articles ul li a {
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 5px;
+}
