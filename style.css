@@ -25,7 +25,7 @@ nav ul {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 .work-here {
@@ -35,7 +35,9 @@ nav ul {
 }
 
 .logo {
-    height: 70%;
+    height: 50%;
+    margin-left: 10%;
+    margin-top: 10px;
 }
 
 .banner-section {
@@ -43,6 +45,7 @@ nav ul {
     background-color: black;
     background-image: url('crs20_streak1.jpg');
     position: relative;
+    overflow: hidden;
 }
 
 .sub-menus {
@@ -58,7 +61,7 @@ nav ul {
 }
 
 .sub-menu-title {
-    background-color: rgb(110, 109, 109, 0.6);
+    background-color: rgb(110, 109, 109, 0.4);
     width: 100%;
     height: 60%;
     display: flex;
@@ -143,4 +146,9 @@ button {
     position: absolute;
     bottom: 0px;
     margin-bottom: 5px;
+}
+
+.video {
+    max-width: 100%;
+    height: auto;
 }
